@@ -1,6 +1,5 @@
 language: python
 before_script:
   - pip install pillow
-  - pip install unittest
 script:
-  -py -m unittest pytest
+  -python -m unittest tests.py
